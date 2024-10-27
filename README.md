@@ -12,6 +12,7 @@ Faiss is only required if using the option --graph_type "KNN Faiss" . It is a so
 A GPU version of Faiss for CUDA 11.1 is not yet available.
 4.	Install CellVGAE with pip:
 pip install cellvgae --pre
+5. Download the zip file from the data_h5ad folder, then unzip the data and place the extracted files back into the data_h5ad folder.
 
 # Example use（Enter the following command in the terminal to run it）
 python -m cellvgae --input_gene_expression_path "data_h5ad/mouse_bladder_cell.h5ad" --hvg 5000 --khvg 250 --graph_type "KNN Scanpy" --k 10 --graph_metric "euclidean" --save_graph --graph_convolution "GCNGAT" --num_hidden_layers 2 --hidden_dims 256 256 --num_heads 10 10 10 10 --dropout 0.4 0.4 0.4 0.4 --latent_dim 50 --epochs 200 --model_save_path "model_saved_out"  --umap –hdbscan
