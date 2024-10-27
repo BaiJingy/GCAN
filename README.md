@@ -76,7 +76,7 @@ optional arguments:
   --hdbscan             Compute and save different HDBSCAN clusterings.
 
 
-                        Path to save PyTorch model and output files. Will create the entire path if necessary.PyTorch模型和输出文件的保存路径。如果需要，将创建整个路径。
-  --umap                Compute and save the 2D UMAP embeddings of the output node features.计算并保存输出节点特征的2D umap嵌入。
-  --hdbscan             Compute and save different HDBSCAN clusterings.——hdbscan计算并保存不同的hdbscan集群。
+                        Path to save PyTorch model and output files. Will create the entire path if necessary.PyTorch
+  --umap                Compute and save the 2D UMAP embeddings of the output node features.
+  --hdbscan             Compute and save different HDBSCAN clusterings.——hdbscan
 
